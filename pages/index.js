@@ -1,2 +1,1 @@
-// pages/index.js
-export { default } from "./homepage";
+export { default } from './homepage';
