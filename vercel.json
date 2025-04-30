@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@vercel/next"
-    }
-  ],
   "env": {
     "STRIPE_SECRET_KEY": "sk_live_XXXXXXXXXXXXXXXXXXXXXXXX",
     "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "pk_live_XXXXXXXXXXXXXXXXXXXXXXXX",
