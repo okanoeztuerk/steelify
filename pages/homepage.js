@@ -6,7 +6,6 @@ import { Input } from '../components/ui/input';
 import { Select, SelectItem, SelectContent } from '../components/ui/select';
 import { Card, CardContent } from '../components/ui/card';
 import Image from 'next/image';
-import logo from '../public/steelify-logo.png';
 
 const stripePromise = loadStripe('pk_test_XXXXXXXXXXXXXXXXXXXXXXXX'); // DEIN STRIPE PUBLIC KEY
 
@@ -49,7 +48,7 @@ export default function Homepage() {
       {/* Navigation */}
       <nav className="flex justify-between items-center p-4 bg-white shadow">
         <div className="flex items-center space-x-3">
-          <Image src={logo} alt="Steelify Logo" width={40} height={40} />
+          <Image src="/steelify-logo.png" ... />
           <h1 className="text-xl font-bold">Steelify</h1>
         </div>
         <div className="space-x-6 flex items-center">
