@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { loadStripe } from '@stripe/stripe-js';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Select, SelectItem, SelectContent } from '@/components/ui/select';
-import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Select, SelectItem, SelectContent } from '../components/ui/select';
+import { Card, CardContent } from '../components/ui/card';
 import Image from 'next/image';
 import logo from '../public/steelify-logo.png';
 
