@@ -48,7 +48,7 @@ export default function Homepage() {
       {/* Navigation */}
       <nav className="flex justify-between items-center p-4 bg-white shadow">
         <div className="flex items-center space-x-3">
-          <Image src="/steelify-logo.png" ... />
+          <Image src="/steelify-logo.png" alt="Steelify Logo" width={40} height={40} />
           <h1 className="text-xl font-bold">Steelify</h1>
         </div>
         <div className="space-x-6 flex items-center">
